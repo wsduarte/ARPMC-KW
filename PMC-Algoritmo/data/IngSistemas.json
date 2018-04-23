@@ -1,0 +1,833 @@
+[
+  {
+    "codigo": "MATE1203",
+    "promedioEstimado": 4.17,
+    "dificultadEstimada": 1.39,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "FISI1018",
+      "FISI1019",
+      "MATE1214",
+      "FISI1028",
+      "FISI1029",
+      "MATE1105",
+      "MATE1207",
+      "ISIS1105",
+      "IIND2401",
+      "IIND2106",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1204",
+    "promedioEstimado": 2.17,
+    "dificultadEstimada": 0.7233333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS1205",
+      "ISIS1104",
+      "ISIS1206",
+      "ISIS1106",
+      "ISIS1304",
+      "ISIS1105",
+      "ISIS2603",
+      "ISIS2304",
+      "ISIS2203",
+      "ISIS2503",
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "LENG1501",
+    "promedioEstimado": 4.58,
+    "dificultadEstimada": 1.5266666666666666,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "DERE1300",
+    "promedioEstimado": 0.0,
+    "dificultadEstimada": 0.0,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "CBU1",
+    "promedioEstimado": 2.2,
+    "dificultadEstimada": 0.7333333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS1001",
+    "promedioEstimado": 4.56,
+    "dificultadEstimada": 1.5199999999999998,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1002",
+    "promedioEstimado": 3.27,
+    "dificultadEstimada": 1.09,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "FISI1018",
+    "promedioEstimado": 3.32,
+    "dificultadEstimada": 1.1066666666666667,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "FISI1028",
+      "FISI1029",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "FISI1019",
+    "promedioEstimado": 4.25,
+    "dificultadEstimada": 1.4166666666666667,
+    "obligatoria": true,
+    "creditos": 1,
+    "nivel": 1,
+    "sucesores": [
+      "FISI1028",
+      "FISI1029",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "MATE1214",
+    "promedioEstimado": 2.83,
+    "dificultadEstimada": 0.9433333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "MATE1207",
+      "IIND2106",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1205",
+    "promedioEstimado": 1.86,
+    "dificultadEstimada": 0.62,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS1206",
+      "ISIS1106",
+      "ISIS1304",
+      "ISIS1105",
+      "ISIS2603",
+      "ISIS2304",
+      "ISIS2203",
+      "ISIS2503",
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1104",
+    "promedioEstimado": 1.51,
+    "dificultadEstimada": 0.5033333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS1106",
+      "ISIS1105",
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "CBU2",
+    "promedioEstimado": 3.58,
+    "dificultadEstimada": 1.1933333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "FISI1028",
+    "promedioEstimado": 2.69,
+    "dificultadEstimada": 0.8966666666666666,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "FISI1029",
+    "promedioEstimado": 4.1,
+    "dificultadEstimada": 1.3666666666666665,
+    "obligatoria": true,
+    "creditos": 1,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "MATE1105",
+    "promedioEstimado": 3.91,
+    "dificultadEstimada": 1.3033333333333335,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "MATE1207",
+      "ISIS1105",
+      "IIND2401",
+      "IIND2106",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1206",
+    "promedioEstimado": 3.3,
+    "dificultadEstimada": 1.0999999999999999,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS1105",
+      "ISIS2603",
+      "ISIS2304",
+      "ISIS2503",
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1106",
+    "promedioEstimado": 4.51,
+    "dificultadEstimada": 1.5033333333333332,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1304",
+    "promedioEstimado": 0.37,
+    "dificultadEstimada": 0.12333333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS2203",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "MBIO-QUIM",
+    "promedioEstimado": 1.6,
+    "dificultadEstimada": 0.5333333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "MATE1207",
+    "promedioEstimado": 4.44,
+    "dificultadEstimada": 1.4800000000000002,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1404",
+    "promedioEstimado": 2.92,
+    "dificultadEstimada": 0.9733333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS2403",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS1105",
+    "promedioEstimado": 0.61,
+    "dificultadEstimada": 0.20333333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": [
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3302",
+      "ISIS3425",
+      "ISIS3710",
+      "ISIS3204",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2603",
+    "promedioEstimado": 1.5,
+    "dificultadEstimada": 0.5,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS2304",
+      "ISIS2503",
+      "ISIS2007",
+      "ISIS2008",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2304",
+    "promedioEstimado": 4.87,
+    "dificultadEstimada": 1.6233333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS2603",
+      "ISIS3301",
+      "ISIS3710",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "IIND2401",
+    "promedioEstimado": 2.83,
+    "dificultadEstimada": 0.9433333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "IIND2106",
+    "promedioEstimado": 1.97,
+    "dificultadEstimada": 0.6566666666666666,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3302",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2403",
+    "promedioEstimado": 2.9,
+    "dificultadEstimada": 0.9666666666666667,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3425",
+      "ISIS3204",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2203",
+    "promedioEstimado": 1.08,
+    "dificultadEstimada": 0.36000000000000004,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2503",
+    "promedioEstimado": 0.64,
+    "dificultadEstimada": 0.21333333333333335,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3710",
+      "ISIS3510",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2007",
+    "promedioEstimado": 3.15,
+    "dificultadEstimada": 1.05,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ISIS2008",
+    "promedioEstimado": 2.9,
+    "dificultadEstimada": 0.9666666666666667,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 2,
+    "sucesores": [
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3XXX",
+      "ISIS3007",
+      "ISIS3909"
+    ]
+  },
+  {
+    "codigo": "ELEC_ING",
+    "promedioEstimado": 1.26,
+    "dificultadEstimada": 0.42,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 47,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3302",
+    "promedioEstimado": 4.63,
+    "dificultadEstimada": 1.5433333333333332,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3425",
+    "promedioEstimado": 2.73,
+    "dificultadEstimada": 0.91,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3710",
+    "promedioEstimado": 0.19,
+    "dificultadEstimada": 0.06333333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3204",
+    "promedioEstimado": 1.72,
+    "dificultadEstimada": 0.5733333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": [
+      "ISIS3510"
+    ]
+  },
+  {
+    "codigo": "ISIS3301",
+    "promedioEstimado": 2.17,
+    "dificultadEstimada": 0.7233333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "CBU3",
+    "promedioEstimado": 4.57,
+    "dificultadEstimada": 1.5233333333333334,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "ELEC_QBMF",
+    "promedioEstimado": 3.95,
+    "dificultadEstimada": 1.3166666666666667,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3510",
+    "promedioEstimado": 4.51,
+    "dificultadEstimada": 1.5033333333333332,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3XXX",
+    "promedioEstimado": 0.4,
+    "dificultadEstimada": 0.13333333333333333,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3XXX",
+    "promedioEstimado": 2.82,
+    "dificultadEstimada": 0.94,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "CLE1",
+    "promedioEstimado": 4.19,
+    "dificultadEstimada": 1.3966666666666667,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "CBU4",
+    "promedioEstimado": 3.27,
+    "dificultadEstimada": 1.09,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3XX",
+    "promedioEstimado": 4.61,
+    "dificultadEstimada": 1.5366666666666668,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "CLE2",
+    "promedioEstimado": 0.84,
+    "dificultadEstimada": 0.27999999999999997,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "CBU5",
+    "promedioEstimado": 2.67,
+    "dificultadEstimada": 0.89,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "CBU6",
+    "promedioEstimado": 0.36,
+    "dificultadEstimada": 0.12,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 1,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3007",
+    "promedioEstimado": 3.45,
+    "dificultadEstimada": 1.1500000000000001,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3909",
+    "promedioEstimado": 0.56,
+    "dificultadEstimada": 0.18666666666666668,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "INICIO",
+    "promedioEstimado": 0,
+    "dificultadEstimada": 0,
+    "obligatoria": false,
+    "creditos": 0,
+    "nivel": 0,
+    "sucesores": [
+      "MATE1203",
+      "ISIS1204",
+      "LENG1501",
+      "DERE1300",
+      "CBU1",
+      "CBU2",
+      "CBU3",
+      "CBU4",
+      "CBU5",
+      "CBU6",
+      "CLE1",
+      "CLE2",
+      "ISIS1001",
+      "ISIS1002",
+      "FISI1018",
+      "MBIO-QUIM"
+    ]
+  }
+]
