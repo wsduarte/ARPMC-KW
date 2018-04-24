@@ -1,4 +1,4 @@
-package Recomendacion;
+package Estructuras;
 
 /******************************************************************************
  *  Compilation:  javac Queue.java

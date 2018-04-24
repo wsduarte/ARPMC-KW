@@ -14,6 +14,7 @@ import java.util.StringTokenizer;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import Estructuras.LinearProbingHashST;
 import Recomendacion.Comparador.Criterio;
 
 public class Filtro {

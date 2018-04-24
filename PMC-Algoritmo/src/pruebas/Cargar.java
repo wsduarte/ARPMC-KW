@@ -12,9 +12,9 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
+import Estructuras.LinearProbingHashST;
 import Recomendacion.Comparador.Criterio;
 import Recomendacion.Filtro;
-import Recomendacion.LinearProbingHashST;
 import Recomendacion.MateriaFiltro;
 
 public class Cargar {
