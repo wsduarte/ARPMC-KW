@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "nombre": "Calculo diferencial",
     "creditos": 3,
@@ -141,7 +141,7 @@
   {
     "nombre": "Algebra Lineal 1",
     "creditos": 3,
-    "codigo": "MATE1105",
+    "codigo": "MATE1005",
     "nivel": 1,
     "prerequisito": [
       "MATE1203"
@@ -182,7 +182,7 @@
   {
     "nombre": "Biologia Celular o Quimica",
     "creditos": 3,
-    "codigo": "MBIO-QUIM",
+    "codigo": "MBIO/QUIM",
     "nivel": 0,
     "prerequisito": [],
     "corequisitos": []
@@ -359,7 +359,7 @@
   {
     "nombre": "Infraestructura de Comunicaciones",
     "creditos": 3,
-    "codigo": "ISIS3204",
+    "codigo": "ISIS32042",
     "nivel": 3,
     "prerequisito": [
       "ISIS2403"

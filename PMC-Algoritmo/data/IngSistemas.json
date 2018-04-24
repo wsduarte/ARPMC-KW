@@ -1,8 +1,11 @@
 [
   {
     "codigo": "MATE1203",
+    "nombre": "Calculo diferencial",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 4.17,
-    "dificultadEstimada": 1.39,
+    "dificultadEstimada": 12.51,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -31,8 +34,11 @@
   },
   {
     "codigo": "ISIS1204",
+    "nombre": "Algoritmica y programacion",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 2.17,
-    "dificultadEstimada": 0.7233333333333333,
+    "dificultadEstimada": 6.51,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -63,8 +69,11 @@
   },
   {
     "codigo": "LENG1501",
+    "nombre": "Espaniol",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 4.58,
-    "dificultadEstimada": 1.5266666666666666,
+    "dificultadEstimada": 13.74,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -83,6 +92,9 @@
   },
   {
     "codigo": "DERE1300",
+    "nombre": "Constitucion y Democracia",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 0.0,
     "dificultadEstimada": 0.0,
     "obligatoria": true,
@@ -103,17 +115,25 @@
   },
   {
     "codigo": "CBU1",
+    "nombre": "Ciclo Basico Uniandino",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 2.2,
-    "dificultadEstimada": 0.7333333333333334,
+    "dificultadEstimada": 6.6000000000000005,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ISIS1001",
+    "nombre": "Introduccion a la Ingenieria de Sistemas",
+    "prerequisito": [],
+    "corequisitos": [
+      "ISIS1002"
+    ],
     "promedioEstimado": 4.56,
-    "dificultadEstimada": 1.5199999999999998,
+    "dificultadEstimada": 13.68,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -132,10 +152,15 @@
   },
   {
     "codigo": "ISIS1002",
+    "nombre": "Acompaniamiento ISIS",
+    "prerequisito": [],
+    "corequisitos": [
+      "ISIS1001"
+    ],
     "promedioEstimado": 3.27,
-    "dificultadEstimada": 1.09,
+    "dificultadEstimada": 0.0,
     "obligatoria": true,
-    "creditos": 3,
+    "creditos": 0,
     "nivel": 1,
     "sucesores": [
       "ISIS3302",
@@ -152,8 +177,14 @@
   },
   {
     "codigo": "FISI1018",
+    "nombre": "Fisica 1",
+    "prerequisito": [],
+    "corequisitos": [
+      "FISI1019",
+      "MATE1203"
+    ],
     "promedioEstimado": 3.32,
-    "dificultadEstimada": 1.1066666666666667,
+    "dificultadEstimada": 9.959999999999999,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -174,8 +205,13 @@
   },
   {
     "codigo": "FISI1019",
+    "nombre": "Fisica Experimental 1",
+    "prerequisito": [],
+    "corequisitos": [
+      "FISI1018"
+    ],
     "promedioEstimado": 4.25,
-    "dificultadEstimada": 1.4166666666666667,
+    "dificultadEstimada": 4.25,
     "obligatoria": true,
     "creditos": 1,
     "nivel": 1,
@@ -196,8 +232,13 @@
   },
   {
     "codigo": "MATE1214",
+    "nombre": "Calculo Integral y Ecuaciones Diferenciales",
+    "prerequisito": [
+      "MATE1203"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.83,
-    "dificultadEstimada": 0.9433333333333334,
+    "dificultadEstimada": 8.49,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -218,8 +259,13 @@
   },
   {
     "codigo": "ISIS1205",
+    "nombre": "Algoritmica y Programacion II",
+    "prerequisito": [
+      "ISIS1204"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 1.86,
-    "dificultadEstimada": 0.62,
+    "dificultadEstimada": 5.58,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -248,8 +294,13 @@
   },
   {
     "codigo": "ISIS1104",
+    "nombre": "Matemitica Estructural",
+    "prerequisito": [
+      "ISIS1204"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 1.51,
-    "dificultadEstimada": 0.5033333333333333,
+    "dificultadEstimada": 4.53,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -272,17 +323,25 @@
   },
   {
     "codigo": "CBU2",
+    "nombre": "Ciclo Basico Uniandino",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 3.58,
-    "dificultadEstimada": 1.1933333333333334,
+    "dificultadEstimada": 10.74,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "FISI1028",
+    "nombre": "Fisica 2",
+    "prerequisito": [],
+    "corequisitos": [
+      "FISI1029"
+    ],
     "promedioEstimado": 2.69,
-    "dificultadEstimada": 0.8966666666666666,
+    "dificultadEstimada": 8.07,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -301,8 +360,13 @@
   },
   {
     "codigo": "FISI1029",
+    "nombre": "Fisica Experimental 2",
+    "prerequisito": [],
+    "corequisitos": [
+      "FISI1028"
+    ],
     "promedioEstimado": 4.1,
-    "dificultadEstimada": 1.3666666666666665,
+    "dificultadEstimada": 4.1,
     "obligatoria": true,
     "creditos": 1,
     "nivel": 1,
@@ -321,8 +385,13 @@
   },
   {
     "codigo": "MATE1105",
+    "nombre": "Algebra Lineal 1",
+    "prerequisito": [
+      "MATE1203"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 3.91,
-    "dificultadEstimada": 1.3033333333333335,
+    "dificultadEstimada": 11.73,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -345,8 +414,13 @@
   },
   {
     "codigo": "ISIS1206",
+    "nombre": "Estructura de Datos",
+    "prerequisito": [
+      "ISIS1205"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 3.3,
-    "dificultadEstimada": 1.0999999999999999,
+    "dificultadEstimada": 9.899999999999999,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -371,8 +445,14 @@
   },
   {
     "codigo": "ISIS1106",
+    "nombre": "Lenguajes y Maquinas",
+    "prerequisito": [
+      "ISIS1205",
+      "ISIS1104"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 4.51,
-    "dificultadEstimada": 1.5033333333333332,
+    "dificultadEstimada": 13.53,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -391,8 +471,13 @@
   },
   {
     "codigo": "ISIS1304",
+    "nombre": "Fundamentos de Infraestructura Tecnologica",
+    "prerequisito": [
+      "ISIS1205"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 0.37,
-    "dificultadEstimada": 0.12333333333333334,
+    "dificultadEstimada": 1.1099999999999999,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -412,17 +497,26 @@
   },
   {
     "codigo": "MBIO-QUIM",
+    "nombre": "Biologia Celular o Quimica",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 1.6,
-    "dificultadEstimada": 0.5333333333333333,
+    "dificultadEstimada": 4.800000000000001,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "MATE1207",
+    "nombre": "Calculo Vectorial",
+    "prerequisito": [
+      "MATE1105",
+      "MATE1214"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 4.44,
-    "dificultadEstimada": 1.4800000000000002,
+    "dificultadEstimada": 13.32,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -441,8 +535,13 @@
   },
   {
     "codigo": "ISIS1404",
+    "nombre": "TI en las Organizaciones",
+    "prerequisito": [
+      "ISIS1204"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.92,
-    "dificultadEstimada": 0.9733333333333333,
+    "dificultadEstimada": 8.76,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -462,8 +561,15 @@
   },
   {
     "codigo": "ISIS1105",
+    "nombre": "Disenio y Analilsis de Algoritmos",
+    "prerequisito": [
+      "ISIS1104",
+      "ISIS1206",
+      "MATE1105"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 0.61,
-    "dificultadEstimada": 0.20333333333333334,
+    "dificultadEstimada": 1.83,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 1,
@@ -484,8 +590,15 @@
   },
   {
     "codigo": "ISIS2603",
+    "nombre": "Desarrollo de SW en Equipo",
+    "prerequisito": [
+      "ISIS1206"
+    ],
+    "corequisitos": [
+      "ISIS2304"
+    ],
     "promedioEstimado": 1.5,
-    "dificultadEstimada": 0.5,
+    "dificultadEstimada": 4.5,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -504,8 +617,13 @@
   },
   {
     "codigo": "ISIS2304",
+    "nombre": "Sistemas Transaccionales",
+    "prerequisito": [
+      "ISIS1206"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 4.87,
-    "dificultadEstimada": 1.6233333333333333,
+    "dificultadEstimada": 14.61,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -523,8 +641,14 @@
   },
   {
     "codigo": "IIND2401",
+    "nombre": "Analisis de Decision e Inversion",
+    "prerequisito": [
+      "MATE1105",
+      "ISIS1001"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.83,
-    "dificultadEstimada": 0.9433333333333334,
+    "dificultadEstimada": 8.49,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -538,8 +662,14 @@
   },
   {
     "codigo": "IIND2106",
+    "nombre": "Probabilidad y Estadistica I",
+    "prerequisito": [
+      "MATE1105",
+      "MATE1214"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 1.97,
-    "dificultadEstimada": 0.6566666666666666,
+    "dificultadEstimada": 5.91,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -554,8 +684,13 @@
   },
   {
     "codigo": "ISIS2403",
+    "nombre": "Arquitectura Empresarial",
+    "prerequisito": [
+      "ISIS1404"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.9,
-    "dificultadEstimada": 0.9666666666666667,
+    "dificultadEstimada": 8.7,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -571,8 +706,13 @@
   },
   {
     "codigo": "ISIS2203",
+    "nombre": "Infraestructura Computacional",
+    "prerequisito": [
+      "ISIS1304"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 1.08,
-    "dificultadEstimada": 0.36000000000000004,
+    "dificultadEstimada": 3.24,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -586,8 +726,13 @@
   },
   {
     "codigo": "ISIS2503",
+    "nombre": "Arquitectura y Disenio de SW",
+    "prerequisito": [
+      "ISIS2603"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 0.64,
-    "dificultadEstimada": 0.21333333333333335,
+    "dificultadEstimada": 1.92,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -603,8 +748,15 @@
   },
   {
     "codigo": "ISIS2007",
+    "nombre": "Disenio de Productos e Innovacion en TI",
+    "prerequisito": [
+      "ISIS2603"
+    ],
+    "corequisitos": [
+      "ISIS2008"
+    ],
     "promedioEstimado": 3.15,
-    "dificultadEstimada": 1.05,
+    "dificultadEstimada": 9.45,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 2,
@@ -618,10 +770,15 @@
   },
   {
     "codigo": "ISIS2008",
+    "nombre": "Vision ISIS",
+    "prerequisito": [],
+    "corequisitos": [
+      "ISIS2007"
+    ],
     "promedioEstimado": 2.9,
-    "dificultadEstimada": 0.9666666666666667,
+    "dificultadEstimada": 0.0,
     "obligatoria": true,
-    "creditos": 3,
+    "creditos": 0,
     "nivel": 2,
     "sucesores": [
       "ISIS3XXX",
@@ -633,17 +790,25 @@
   },
   {
     "codigo": "ELEC_ING",
+    "nombre": "Electiva Regulada en Ingenieria",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 1.26,
-    "dificultadEstimada": 0.42,
+    "dificultadEstimada": 3.7800000000000002,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 47,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ISIS3302",
+    "nombre": "Modelado, Simulacion y Optimizacion",
+    "prerequisito": [
+      "IIND2106"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 4.63,
-    "dificultadEstimada": 1.5433333333333332,
+    "dificultadEstimada": 13.89,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -651,8 +816,13 @@
   },
   {
     "codigo": "ISIS3425",
+    "nombre": "Sistemas Empresariales",
+    "prerequisito": [
+      "ISIS2403"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.73,
-    "dificultadEstimada": 0.91,
+    "dificultadEstimada": 8.19,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -660,8 +830,15 @@
   },
   {
     "codigo": "ISIS3710",
+    "nombre": "Programacion con Tecnologias Web",
+    "prerequisito": [
+      "ISIS2304",
+      "ISIS2603",
+      "ISIS2503"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 0.19,
-    "dificultadEstimada": 0.06333333333333334,
+    "dificultadEstimada": 0.5700000000000001,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -669,8 +846,13 @@
   },
   {
     "codigo": "ISIS3204",
+    "nombre": "Infraestructura de Comunicaciones",
+    "prerequisito": [
+      "ISIS2403"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 1.72,
-    "dificultadEstimada": 0.5733333333333334,
+    "dificultadEstimada": 5.16,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -680,8 +862,14 @@
   },
   {
     "codigo": "ISIS3301",
+    "nombre": "Inteligencia de Negocios",
+    "prerequisito": [
+      "ISIS2304",
+      "ISIS2403"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 2.17,
-    "dificultadEstimada": 0.7233333333333333,
+    "dificultadEstimada": 6.51,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -689,26 +877,41 @@
   },
   {
     "codigo": "CBU3",
+    "nombre": "Ciclo Basico Uniandino",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 4.57,
-    "dificultadEstimada": 1.5233333333333334,
+    "dificultadEstimada": 13.71,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ELEC_QBMF",
+    "nombre": "Electiva en Quimica, Biologia, Matematicas o Fisica",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 3.95,
-    "dificultadEstimada": 1.3166666666666667,
+    "dificultadEstimada": 11.850000000000001,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ISIS3510",
+    "nombre": "Construccion de Aplicaciones Moviles",
+    "prerequisito": [
+      "ISIS2304",
+      "ISIS2603",
+      "ISIS2503",
+      "ISIS2403",
+      "ISIS3204"
+    ],
+    "corequisitos": [],
     "promedioEstimado": 4.51,
-    "dificultadEstimada": 1.5033333333333332,
+    "dificultadEstimada": 13.53,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -716,17 +919,23 @@
   },
   {
     "codigo": "ISIS3XXX",
-    "promedioEstimado": 0.4,
-    "dificultadEstimada": 0.13333333333333333,
-    "obligatoria": true,
-    "creditos": 3,
-    "nivel": 3,
-    "sucesores": []
-  },
-  {
-    "codigo": "ISIS3XXX",
+    "nombre": "Electiva Profesional",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 2.82,
-    "dificultadEstimada": 0.94,
+    "dificultadEstimada": 8.459999999999999,
+    "obligatoria": true,
+    "creditos": 3,
+    "nivel": 3,
+    "sucesores": []
+  },
+  {
+    "codigo": "ISIS3XXX",
+    "nombre": "Electiva Profesional",
+    "prerequisito": [],
+    "corequisitos": [],
+    "promedioEstimado": 2.82,
+    "dificultadEstimada": 8.459999999999999,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -734,62 +943,83 @@
   },
   {
     "codigo": "CLE1",
+    "nombre": "Curso de Libre Eleccion",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 4.19,
-    "dificultadEstimada": 1.3966666666666667,
+    "dificultadEstimada": 12.57,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "CBU4",
+    "nombre": "Curso de Libre Eleccion",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 3.27,
-    "dificultadEstimada": 1.09,
+    "dificultadEstimada": 9.81,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ISIS3XX",
+    "nombre": "Electiva Profesional",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 4.61,
-    "dificultadEstimada": 1.5366666666666668,
+    "dificultadEstimada": 13.830000000000002,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 3,
     "sucesores": []
   },
   {
     "codigo": "CLE2",
+    "nombre": "Curso de Libre Eleccion",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 0.84,
-    "dificultadEstimada": 0.27999999999999997,
+    "dificultadEstimada": 2.52,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "CBU5",
+    "nombre": "Ciclo Basico Uniandino",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 2.67,
-    "dificultadEstimada": 0.89,
+    "dificultadEstimada": 8.01,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "CBU6",
+    "nombre": "Ciclo Basico Uniandino",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 0.36,
-    "dificultadEstimada": 0.12,
+    "dificultadEstimada": 1.08,
     "obligatoria": true,
     "creditos": 3,
-    "nivel": 1,
+    "nivel": 0,
     "sucesores": []
   },
   {
     "codigo": "ISIS3007",
+    "nombre": "Proyecto de Grado",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 3.45,
-    "dificultadEstimada": 1.1500000000000001,
+    "dificultadEstimada": 10.350000000000001,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -797,8 +1027,11 @@
   },
   {
     "codigo": "ISIS3909",
+    "nombre": "Inscripcion a Grado",
+    "prerequisito": [],
+    "corequisitos": [],
     "promedioEstimado": 0.56,
-    "dificultadEstimada": 0.18666666666666668,
+    "dificultadEstimada": 1.6800000000000002,
     "obligatoria": true,
     "creditos": 3,
     "nivel": 3,
@@ -806,8 +1039,11 @@
   },
   {
     "codigo": "INICIO",
-    "promedioEstimado": 0,
-    "dificultadEstimada": 0,
+    "nombre": "Materia Inicial",
+    "prerequisito": [],
+    "corequisitos": [],
+    "promedioEstimado": 0.0,
+    "dificultadEstimada": 0.0,
     "obligatoria": false,
     "creditos": 0,
     "nivel": 0,

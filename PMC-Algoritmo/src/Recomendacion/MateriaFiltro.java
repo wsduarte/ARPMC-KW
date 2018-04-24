@@ -14,6 +14,9 @@ import java.util.List;
 public class MateriaFiltro {
     
     public String codigo; //llave
+    public String nombre;
+    public List<String> prerequisito;
+    public List<String> corequisitos;
     //filtros <Con los que comparo>
     public Double promedioEstimado;
     public Double dificultadEstimada;
@@ -80,7 +83,31 @@ public class MateriaFiltro {
 		this.nivel = nivel;
 	}
     
-    @Override
+    public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public List<String> getPrerequisito() {
+		return prerequisito;
+	}
+
+	public void setPrerequisito(List<String> prerequisito) {
+		this.prerequisito = prerequisito;
+	}
+
+	public List<String> getCorequisitos() {
+		return corequisitos;
+	}
+
+	public void setCorequisitos(List<String> corequisitos) {
+		this.corequisitos = corequisitos;
+	}
+
+	@Override
     public int hashCode() {
     	return codigo.hashCode();
     }
@@ -93,10 +120,9 @@ public class MateriaFiltro {
 
 	@Override
 	public String toString() {
-		return "MateriaFiltro [codigo=" + codigo + ", promedioEstimado=" + promedioEstimado + ", dificultadEstimada="
-				+ dificultadEstimada + ", obligatoria=" + obligatoria + ", creditos=" + creditos + ", sucesores="
-				+ sucesores + "]";
-	}
-    
-    
+		return "MateriaFiltro [codigo=" + codigo + ", nombre=" + nombre + ", prerequisito=" + prerequisito
+				+ ", corequisitos=" + corequisitos + ", promedioEstimado=" + promedioEstimado + ", dificultadEstimada="
+				+ dificultadEstimada + ", obligatoria=" + obligatoria + ", creditos=" + creditos + ", nivel=" + nivel
+				+ ", sucesores=" + sucesores + "]";
+	}    
 }

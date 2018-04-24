@@ -163,7 +163,7 @@ public class LinearProbingHashST<Key, Value> {
         for (int i = hash(key); keys[i] != null; i = (i + 1) % m)
             if (keys[i].equals(key))
                 return vals[i];
-        throw new NullPointerException("La materia "+key+" no existe.");
+        return null; //throw new NullPointerException("La materia "+key+" no existe.");
     }
 
     /**

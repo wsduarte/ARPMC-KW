@@ -139,6 +139,20 @@ public class Filtro {
         PrintWriter pw = new PrintWriter(new FileWriter(ruta1));
         pw.print(jsonEjemplo);
         pw.close();
+        
+        /**
+        for (int j = 0; j < mf.length; j++) {
+			mf[j].setDificultadEstimada(mf[j].getCreditos()*mf[j].getPromedioEstimado());
+		}
+		
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String jsonEjemplo = gson.toJson(mf);
+        System.out.println(jsonEjemplo);
+        String ruta1 = "./data/IngSistemas.json";
+        PrintWriter pw = new PrintWriter(new FileWriter(ruta1));
+        pw.print(jsonEjemplo);
+        pw.close();
+         */
 		return ret;
 	}
 
