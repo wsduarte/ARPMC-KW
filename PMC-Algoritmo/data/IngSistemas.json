@@ -361,7 +361,9 @@
   {
     "codigo": "FISI1029",
     "nombre": "Fisica Experimental 2",
-    "prerequisito": [],
+    "prerequisito": [
+      "FISI1019"
+    ],
     "corequisitos": [
       "FISI1028"
     ],
@@ -955,7 +957,7 @@
   },
   {
     "codigo": "CBU4",
-    "nombre": "Curso de Libre Eleccion",
+    "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
     "promedioEstimado": 3.27,

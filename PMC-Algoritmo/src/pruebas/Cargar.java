@@ -4,6 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import com.google.gson.Gson;
@@ -74,13 +75,14 @@ public class Cargar {
 			if(creditos-posibles.get(i).getCreditos() >= 0 && evaluarPredicados(posibles.get(i))) {
 				MateriaFiltro m = posibles.remove(i);
 				recomendacion.add(m);
-				codigosVistos.put(m.getCodigo(), m.getCodigo());
 				if(m.getNivel() == 1) listaN1.delete(m.getCodigo());
 				creditos -= m.getCreditos();
 			}
 		}
+		for(int i = 0; i < recomendacion.size(); i++) {
+			codigosVistos.put(recomendacion.get(i).getCodigo(), recomendacion.get(i).getCodigo());
+		}
 	}
-
 
 	// Predicados
 	private boolean evaluarPredicados(MateriaFiltro materia) {
@@ -151,45 +153,47 @@ public class Cargar {
 		int creditos = 0;
 		for(MateriaFiltro m : c.recomendacion) {
 			creditos += m.getCreditos();
-			System.out.println(m.getNombre()+"\t\t"+m.getCreditos());
-		}
-		System.out.println("\nCreditos: "+creditos);
-		
-		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
-		creditos = 0;
-		for(MateriaFiltro m : c.recomendacion) {
-			creditos += m.getCreditos();
 			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
 		}
+		System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
 		
-		System.out.println("\nCreditos: "+creditos);
-		
-		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
-		creditos = 0;
-		for(MateriaFiltro m : c.recomendacion) {
-			creditos += m.getCreditos();
-			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+		for(int i =0 ; i< 20; i++) {
+			c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
+			creditos = 0;
+			for(MateriaFiltro m : c.recomendacion) {
+				creditos += m.getCreditos();
+				System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+			}
+			
+			System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
 		}
 		
-		System.out.println("\nCreditos: "+creditos);
-		
-		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
-		creditos = 0;
-		for(MateriaFiltro m : c.recomendacion) {
-			creditos += m.getCreditos();
-			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
-		}
-		
-		System.out.println("\nCreditos: "+creditos);
-		
-		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
-		creditos = 0;
-		for(MateriaFiltro m : c.recomendacion) {
-			creditos += m.getCreditos();
-			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
-		}
-		
-		System.out.println("\nCreditos: "+creditos);
+//		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
+//		creditos = 0;
+//		for(MateriaFiltro m : c.recomendacion) {
+//			creditos += m.getCreditos();
+//			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+//		}
+//		
+//		System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
+//		
+//		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
+//		creditos = 0;
+//		for(MateriaFiltro m : c.recomendacion) {
+//			creditos += m.getCreditos();
+//			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+//		}
+//		
+//		System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
+//		
+//		c.recomendar(20, c.recomendacion, Criterio.DIFICULTAD);
+//		creditos = 0;
+//		for(MateriaFiltro m : c.recomendacion) {
+//			creditos += m.getCreditos();
+//			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+//		}
+//		
+//		System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
 	}
 
 }
