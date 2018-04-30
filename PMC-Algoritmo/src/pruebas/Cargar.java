@@ -33,7 +33,7 @@ public class Cargar {
 	private LinearProbingHashST<String, MateriaFiltro> listaN1;
 	private LinearProbingHashST<String, String> codigosVistos;
 	private List<MateriaFiltro> posibles;
-	private List<MateriaFiltro> recomendacion;
+	public List<MateriaFiltro> recomendacion;
 
 	//-------------------------------------------------
 	// Constructor
@@ -83,6 +83,29 @@ public class Cargar {
 			codigosVistos.put(recomendacion.get(i).getCodigo(), recomendacion.get(i).getCodigo());
 		}
 	}
+	
+	// Adicion de correoquisitos 
+	
+//	@SuppressWarnings("unlikely-arg-type")
+//	private int addCo(int materia, int i) {
+//		boolean add = false;
+//		int ret = 0;
+//		for(String codigoCorrequisito : posibles.get(materia).getCorequisitos()) {
+//			add = posibles.indexOf(codigoCorrequisito) >  (posibles.size()-i)/2;
+//		}
+//		if(add) {
+//			MateriaFiltro m = posibles.remove(materia);
+//			recomendacion.add(m);
+//			if(m.getNivel() == 1) listaN1.delete(m.getCodigo());
+//			ret = m.getCreditos();
+//			s: for(String codigo : posibles.get(materia).getCorequisitos()) {
+//				m = listaMaterias.get(codigo);
+//				recomendacion.add(m);
+//				if(m.getNivel() == 1) listaN1.delete(m.getCodigo());
+//			}
+//			return ret; // ------------------------
+//		} else return 0;
+//	}
 
 	// Predicados
 	private boolean evaluarPredicados(MateriaFiltro materia) {
@@ -104,7 +127,6 @@ public class Cargar {
 			return true;
 		}
 	}
-
 
 	// Métodos para sucesores
 	private void cargarSucesores() {
@@ -153,7 +175,7 @@ public class Cargar {
 		int creditos = 0;
 		for(MateriaFiltro m : c.recomendacion) {
 			creditos += m.getCreditos();
-			System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+			System.out.println(m.getCodigo()+"\t"+ m.getNombre());
 		}
 		System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");
 		
@@ -162,7 +184,7 @@ public class Cargar {
 			creditos = 0;
 			for(MateriaFiltro m : c.recomendacion) {
 				creditos += m.getCreditos();
-				System.out.println(m.getCodigo()+"\t"+ m.getNombre()+"\t\t"+m.getCreditos());
+				System.out.println(m.getCodigo()+"\t"+ m.getNombre());
 			}
 			
 			System.out.println("\nCreditos: "+creditos+"\n---------------------------------------");

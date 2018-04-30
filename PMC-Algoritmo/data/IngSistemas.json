@@ -114,7 +114,7 @@
     ]
   },
   {
-    "codigo": "CBU1",
+    "codigo": "CBU1    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -322,7 +322,7 @@
     ]
   },
   {
-    "codigo": "CBU2",
+    "codigo": "CBU2    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -878,7 +878,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CBU3",
+    "codigo": "CBU3    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -944,7 +944,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CLE1",
+    "codigo": "CLE1    ",
     "nombre": "Curso de Libre Eleccion",
     "prerequisito": [],
     "corequisitos": [],
@@ -956,7 +956,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CBU4",
+    "codigo": "CBU4    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -980,7 +980,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CLE2",
+    "codigo": "CLE2    ",
     "nombre": "Curso de Libre Eleccion",
     "prerequisito": [],
     "corequisitos": [],
@@ -992,7 +992,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CBU5",
+    "codigo": "CBU5    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -1004,7 +1004,7 @@
     "sucesores": []
   },
   {
-    "codigo": "CBU6",
+    "codigo": "CBU6    ",
     "nombre": "Ciclo Basico Uniandino",
     "prerequisito": [],
     "corequisitos": [],
@@ -1054,14 +1054,14 @@
       "ISIS1204",
       "LENG1501",
       "DERE1300",
-      "CBU1",
-      "CBU2",
-      "CBU3",
-      "CBU4",
-      "CBU5",
-      "CBU6",
-      "CLE1",
-      "CLE2",
+      "CBU1    ",
+      "CBU2    ",
+      "CBU3    ",
+      "CBU4    ",
+      "CBU5    ",
+      "CBU6    ",
+      "CLE1    ",
+      "CLE2    ",
       "ISIS1001",
       "ISIS1002",
       "FISI1018",
